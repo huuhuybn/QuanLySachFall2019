@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_account">
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.dotplays.quanlysach.activity.ui.account.AccountFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_sold" />
+
+    <fragment
+        android:id="@+id/navigation_sold"
+        android:name="com.dotplays.quanlysach.activity.ui.sold.SoldFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_statistic" />
+
+    <fragment
+        android:id="@+id/navigation_library"
+        android:name="com.dotplays.quanlysach.activity.ui.library.LibraryFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_library" />
+
+
+    <fragment
+        android:id="@+id/navigation_statistic"
+        android:name="com.dotplays.quanlysach.activity.ui.statistic.StatisticFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_library" />
+</navigation>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuanLySach</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="splash_btn_login">Đăng nhập</string>
+    <string name="title_account">Tài khoản</string>
+    <string name="title_sold">Đã bán</string>
+    <string name="title_library">Thư Viện</string>
+    <string name="title_statistic">Thống Kê</string>
+    <string name="account_btn_logout">Đăng xuất</string>
+    <string name="account_btn_change_password">Đổi mật khẩu</string>
+    <string name="account_btn_add_account">Thêm nhân viên</string>
+</resources>
